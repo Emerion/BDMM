@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Better don't MEAT me!</title>
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+	<script type="text/javascript" src="js/easeljs.min.js"></script>
+	<script type="text/javascript" src="js/InputHandler.js"></script>
+	<script type="text/javascript" src="js/Movement.js"></script>
+	<script type="text/javascript" src="js/MapEntities/GroundEntity.js"></script>
+	<script type="text/javascript" src="js/MapEntities/PlatformEntity.js"></script>
+	<script type="text/javascript" src="js/PowerUps/ChefsHat.js"></script>
+	<script type="text/javascript" src="js/PowerUps/MeatEntity.js"></script>
+	<script type="text/javascript" src="js/Bullets/MeatBulletEntity.js"></script>
+	<script type="text/javascript" src="js/Bullets/SkillBulletEntity.js"></script>
+	<script type="text/javascript" src="js/EnemyEntities/HungryEnemyEntity.js"></script>
+	<script type="text/javascript" src="js/Player.js"></script>
+	<script type="text/javascript" src="js/DebugInfoFrame.js"></script>
+	<script type="text/javascript" src="js/ScoreInfoFrame.js"></script>
+	<script type="text/javascript" src="js/MeatInfoFrame.js"></script>
+	<script type="text/javascript" src="js/SkillInfoFrame.js"></script>
+	<script type="text/javascript" src="js/HealthInfoFrae.js"></script>
+	<script type="text/javascript" src="js/Game.js"></script>
+</head>
+<body style="background-color: #333; margin: 0; padding: 0">
+	<canvas id="game_canvas" width="1024" height="768" style="background-color: #000; position: absolute; top: 50%; left: 50%; margin-top: -384px; margin-left: -512px;"></canvas>
+
+	<script>
+		var canvas = document.getElementById('game_canvas');
+		new Game(canvas);
+	</script>
+</body>
+</html>
